@@ -1,0 +1,19 @@
+Source: fdkaac
+Section: sound
+Priority: optional
+Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Build-Depends:
+ debhelper (>= 9),
+ dh-autoreconf,
+ libfdk-aac-dev
+Standards-Version: 3.9.4
+Homepage: https://github.com/nu774/fdkaac
+
+Package: fdkaac
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlib:Depends},
+ ${shlibs:Depends}
+Description: command line encoder frontend for libfdk-aac
+ fdkaac is a command line encoder frontend for libfdk-aac.
