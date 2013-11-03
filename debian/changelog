@@ -1,5 +1,8 @@
-fdkaac (0.5.0-0) UNRELEASED; urgency=low
+fdkaac (0.5.0-1~0.gbp8ebfe8) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @8ebfe8434ecc17f55368bdc1c264f97dcc2cf50b **
 
   * Initial release. (Closes: #XXXXXX)
+  * debian/source: Add declaration of version.
 
- -- Rogério Brito <rbrito@ime.usp.br>  Sun, 03 Nov 2013 10:58:03 -0200
+ -- Rogério Brito <rbrito@ime.usp.br>  Sun, 03 Nov 2013 11:06:50 -0200
