@@ -1,8 +1,12 @@
-fdkaac (0.5.0-1~0.gbp8ebfe8) UNRELEASED; urgency=low
+fdkaac (0.5.0-1~1.gbp7d5803) UNRELEASED; urgency=low
 
-  ** SNAPSHOT build @8ebfe8434ecc17f55368bdc1c264f97dcc2cf50b **
+  ** SNAPSHOT build @7d58039c6f531217d07b84bb316b831186643976 **
 
   * Initial release. (Closes: #XXXXXX)
   * debian/source: Add declaration of version.
+  * gitignore: Add list of files to ignore.
+  * debian: Add rudimentary debian packaging.
+  * debian/source: Add declaration of version.
+  * debian/copyright: Add copyright file.
 
  -- Rogério Brito <rbrito@ime.usp.br>  Sun, 03 Nov 2013 11:06:50 -0200
