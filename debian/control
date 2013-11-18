@@ -13,7 +13,6 @@ Package: fdkaac
 Architecture: any
 Depends:
  ${misc:Depends},
- ${shlib:Depends},
  ${shlibs:Depends}
 Description: command line encoder frontend for libfdk-aac
  fdkaac is a command line encoder frontend for libfdk-aac.
